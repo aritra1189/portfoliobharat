@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(1, 16, 16);
+    background-size: auto;
+  }
+  .new{
+    background-color: aquamarine;
+    text-decoration: solid;
+    
+  }
+  
+    h1{
+      color: rgb(16, 117, 206);
+    }
+  .me{
+      
+      border: 1px solid black;
+      margin: 15px 30px 100px 50px;
+      
+      font-family: cursive;
+      padding-left:200px;
+      padding-right:100px;
+      padding-top:10px;
+      
+      background-size: cover;
+    background-repeat: no-repeat;
+      color: rgb(244, 240, 240);
+      border-radius:0%;
+      
+  }
+  .center:hover{
+    transform: scale(1.00);
+  }
+  .center{
+      border-radius: 20%;
+      display: block;
+    margin: left -2px;
+    margin-right: auto;
+    margin-top: 44px;
+    width: 10%;
+    border-style:solid;
+    border-color: rgb(103, 211, 230);
+    float: left;
+  }
+  .nav {
+      
+      list-style-type: disc;;
+      text-align: right; 
+      padding: 10;
+      margin: 0;
+    }
+    .nav li {
+      display:inline-table;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 20px;
+     
+    }
+    .nav li:hover{
+      transform: scale(1.1);
+    }
+    .extra ul li{
+      display: none;
+    }
+    .extra:hover.extra ul li{
+     display: inline-flex;
+       font-size:30PX;
+      font-family:italic;
+       
+       
+    }
+    .extra ul li a{
+  
+      color: rgb(221, 6, 254);
+      
+    }
+    a{
+      color: rgb(168, 120, 240);
+    }
+    a:hover{
+      color:rgb(176, 237, 33);
+     
+    }
+    
+  
+    
+    .box1{
+        display: inline-block;
+        height: 400px;
+        width: 400px;
+        color: rgb(94, 205, 42);
+        background-image: none;
+        position:relative;
+        margin: 40px;
+        border-radius: 10%;
+        border:5px solid rgb(217, 197, 62);
+        background-color:rgb(18, 91, 104);
+        Box-shadow:5px 10px rgb(50, 55, 4);
+         
+         }
+         
+    h4{
+         padding-left: 120px;
+      }
+    .extra ul li a:hover{
+      color: rgb(4, 245, 100);
+     }
+     
+     h1:hover{
+      background-color: yellowgreen;
+      color: black;
+     }
+     .icon1{
+      color: bisque;
+      padding-left: 45%;
+      padding-top: 42%;
+      padding-bottom: 50%;
+      padding-right: 50%;
+      position: absolute;
+     }
+     .icon2{
+      color: bisque;
+      padding-left: 43%;
+      padding-top: 42%;
+      padding-bottom: 50%;
+      padding-right: 50%;
+      position: absolute;
+     }
+     .icon3{
+      color: bisque;
+      padding-left: 40%;
+      padding-top: 40%;
+      padding-bottom: 50%;
+      padding-right: 50%;
+      position: absolute;
+     }
+     .content1{
+      position: absolute;
+      text-align: center;
+     
+      display: none;
+     }
+     .content2{
+      position: absolute;
+      text-align: center;
+      
+      display: none;
+     }
+     .content3{
+      position: absolute;
+      text-align: center;
+      
+      display: none;
+     }
+     .icon1:hover{
+     display: none;
+     }
+     .icon1:hover +.content1{
+      display: block;
+    }
+    .icon2:hover{
+      display: none;
+    }
+    .icon2:hover +.content2{
+      display:block;
+
+    }
+    .icon3:hover{
+      display:none;
+    }
+    .icon3:hover +.content3{
+      display: block;
+    }
+    #resume{
+      height: 40px;
+      width: 120px;
+      border-radius: 20px;
+    }
